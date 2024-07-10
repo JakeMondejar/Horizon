@@ -24,7 +24,7 @@
                 class="search-icon"
                 loading="lazy"
                 alt="Search"
-                src="assets/searchicon.png"
+                src="searchicon.png"
               />
             </button>
           </div>
@@ -37,7 +37,7 @@
             class="sun-big-1"
             loading="lazy"
             alt=""
-            src="assets/sun big 1.png"
+            src="sun big 1.png"
           />
 
           <div class="wrapper">
@@ -77,10 +77,10 @@
       function updateImage(temperature) {
         const imgElement = document.getElementById('sun-image');
         if (temperature > 25) {
-        imgElement.src = 'assets/sun big 1.png'; // Example image for hot weather
+        imgElement.src = 'sun big 1.png'; // Example image for hot weather
         imgElement.className = 'sun-big-1';
         } else {
-        imgElement.src = 'assets/rainy big.png'; // Example image for cold weather
+        imgElement.src = 'rainy big.png'; // Example image for cold weather
         imgElement.className = 'rainy-big';
        }
      }
